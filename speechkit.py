@@ -4,7 +4,6 @@ from creds import get_creds
 iam_token, folder_id = get_creds()
 
 
-
 def text_to_speech(text: str):
     headers = {
         'Authorization': f'Bearer {iam_token}',

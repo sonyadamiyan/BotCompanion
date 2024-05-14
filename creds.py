@@ -8,7 +8,6 @@ logging.basicConfig(filename=LOGS, level=logging.INFO,
                     format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")
 
 
-
 def create_new_token():
     url = "http://169.254.169.254/computeMetadata/v1/instance/service-accounts/default/token"
     headers = {

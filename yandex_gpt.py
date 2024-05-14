@@ -5,6 +5,7 @@ from creds import get_creds
 
 logging.basicConfig(filename=LOGS, level=logging.ERROR, format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")
 
+
 def count_gpt_tokens(messages):
     iam_token, folder_id = get_creds()
     url = "https://llm.api.cloud.yandex.net/foundationModels/v1/tokenizeCompletion"

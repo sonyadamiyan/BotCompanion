@@ -1,4 +1,4 @@
-HOME_DIR = '/home/student/'
+HOME_DIR = '/home/student'
 LOGS = f'{HOME_DIR}/logs.txt'
 DB_FILE = f'{HOME_DIR}/messages.db'
 

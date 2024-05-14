@@ -11,6 +11,7 @@ bot = telebot.TeleBot(get_bot_token())
 logging.basicConfig(filename=LOGS, level=logging.ERROR, format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")
 
 
+
 def create_keyboard(buttons_list):
     keyboard = ReplyKeyboardMarkup(
         row_width=1,

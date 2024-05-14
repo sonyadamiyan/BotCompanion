@@ -7,6 +7,7 @@ logging.basicConfig(filename=LOGS, level=logging.ERROR,
 path_to_db = DB_FILE
 
 
+
 def create_database():
     try:
         with sqlite3.connect(path_to_db) as conn:

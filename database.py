@@ -120,3 +120,4 @@ def count_all_symbol(user_id, db_name=DB_FILE):
                 return 0
     except Exception as e:
         print(f"Error: {e}")
+

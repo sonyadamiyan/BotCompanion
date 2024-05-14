@@ -60,3 +60,4 @@ def is_tts_symbol_limit(user_id, text):
         msg = f"Превышен лимит SpeechKit TTS на запрос {MAX_TTS_SYMBOLS}, в сообщении {text_symbols} символов"
         return None, msg
     return len(text), ""
+

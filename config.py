@@ -1,4 +1,4 @@
-HOME_DIR = '/home/student/CompanionBot'
+HOME_DIR = '/home/student/BotCompanion'
 LOGS = f'{HOME_DIR}/logs.txt'
 DB_FILE = f'{HOME_DIR}/messages.db'
 

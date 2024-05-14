@@ -52,3 +52,4 @@ def get_creds():
 def get_bot_token():
     with open(BOT_TOKEN_PATH, 'r') as f:
         return f.read().strip()
+

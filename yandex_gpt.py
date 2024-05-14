@@ -50,3 +50,4 @@ def ask_gpt(messages):
     except Exception as e:
         logging.error(e)
         return False, "Ошибка при обращении к GPT",  None
+
